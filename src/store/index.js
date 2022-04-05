@@ -1,17 +1,14 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
-
-Vue.use(Vuex)
+import Vue from "vue";
+import Vuex from "vuex";
+import todos from "./modules/todos";
+Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
+  state: {},
+  getters: {},
+  mutations: {},
+  actions: {},
   modules: {
-  }
-})
+    todos,
+  },
+});
