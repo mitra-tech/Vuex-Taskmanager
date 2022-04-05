@@ -36,7 +36,12 @@ form {
   padding: 10px;
   border: 1px solid #41b883;
 }
-
+input[type="text"] {
+  flex: 10;
+  padding: 10px;
+  border: 1px #41b883 solid;
+  cursor: pointer;
+}
 input[type="submit"] {
   flex: 2;
   background: #41b883;
